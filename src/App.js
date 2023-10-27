@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import HomeScreen from './HomeScreen';
 import './App.css';
+
+const Tab = createBottomTabNavigator();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" component={<HomeScreen/>} />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 
