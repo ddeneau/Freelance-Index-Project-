@@ -1,0 +1,11 @@
+
+
+const BoardScreen = () => {
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+export default BoardScreen
