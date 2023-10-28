@@ -1,17 +1,19 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './HomeScreen';
 import './App.css';
-
-const Tab = createBottomTabNavigator();
+import AboutScreen from './Screens/AboutScreen';
+import HomeScreen from './Screens/HomeScreen';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={<HomeScreen/>} />
-      </Tab.Navigator>
-    </NavigationContainer>
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/about" element={<AboutScreen></AboutScreen>}></Route>
+            <Route path="/" element={<HomeScreen></HomeScreen>}></Route>
+            <Route path="/about" element={<AboutScreen></AboutScreen>}></Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
   );
 }
 
