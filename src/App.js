@@ -1,6 +1,7 @@
 import './App.css';
 import AboutScreen from './Screens/AboutScreen';
 import HomeScreen from './Screens/HomeScreen';
+import Header from './Header'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './NavBar';
 
@@ -8,6 +9,7 @@ function App() {
   return (
       <div>
         <BrowserRouter>
+          <Header/>
           <NavBar/>
           <Routes>
             <Route path="/about" element={<AboutScreen></AboutScreen>}></Route>
