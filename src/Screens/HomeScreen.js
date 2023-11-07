@@ -7,8 +7,8 @@ const HomeScreen = () => {
        
             </div>
             <div className="grid lg:grid-cols-2 sm:grid-cols-1" >
-                <HomeInfo title="Create and Post Contracts." body="Create and customize job listings quickly. Specify job requirements, responsibilities, and add any other details important to you."></HomeInfo>
-                <HomeInfo title="Browse Available Contracts." body="Browse through a diverse range of job listings with ease. Search filters help you find the jobs that align perfectly with your qualifications and personal needs."></HomeInfo>
+                {HomeInfo ("Create and Post Contracts.", "Create and customize job listings quickly. Specify job requirements, responsibilities, and add any other details important to you.")}
+                {HomeInfo ("Browse Available Contracts.", "Browse through a diverse range of job listings with ease. Search filters help you find the jobs that align perfectly with your qualifications and personal needs.")}
             </div>
             <div className="flex items-center justify-center font-extrabold text-4xl pt-10">
                 <div className="flex flex-row">
@@ -20,8 +20,8 @@ const HomeScreen = () => {
                 </div>
             </div>
             <div className="grid lg:grid-cols-2 sm:grid-cols-1" >
-                <HomeInfo title="Create and Post A Profile." body="Create your Talent Showcase, highlighting your skills, background, and interests. Allow users to discover you and reach out directly."></HomeInfo>
-                <HomeInfo title="Browse Available Profiles." body="Browse to find individuals who can make a significant impact on your projects. Filter by skills, experience, and location to pinpoint the perfect profile."></HomeInfo>
+                {HomeInfo("Create and Post A Profile.", "Create your Talent Showcase, highlighting your skills, background, and interests. Allow users to discover you and reach out directly.")}
+                {HomeInfo ("Browse Available Profiles.", "Browse to find individuals who can make a significant impact on your projects. Filter by skills, experience, and location to pinpoint the perfect profile.")}
             </div>
         </div>
     )
