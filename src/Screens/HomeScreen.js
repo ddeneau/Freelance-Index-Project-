@@ -1,4 +1,4 @@
-import HomeInfo from "../Components/HomeInfo"
+import HomeInfo from "../Components/Home/HomeInfo"
 
 const HomeScreen = () => {
     return (
