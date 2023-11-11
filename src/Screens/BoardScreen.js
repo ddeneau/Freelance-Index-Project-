@@ -14,7 +14,7 @@ const BoardScreen = () => {
             <div class="">
                 {Search("Search for Contracts")}
             </div>
-            <div className="justify-items-center grid grid-cols-3">
+            <div className="justify-items-center grid md:grid-cols-3 sm:grid-cols-1">
                 {sampleContracts}
             </div>
         </div>
