@@ -1,11 +1,20 @@
+import LoggedInProfile from "./Profile/LoggedInProfile"
+import CreateProfile from "./Profile/CreateProfile"
+
+var loggedIn = false
+
 const ProfileScreen = () => {
-    return(
-        <div class="text-3xl font-bold pt-10 justify-items-center grid grid-cols-3">
-            <div class=""></div>
-            <div class="">middle</div>
-            <div class=""></div>
+    return (
+        <div>
+          {loggedIn ? (
+            // Display logged-in user details and profile options
+            <LoggedInProfile/>
+          ) : (
+            // Display option to create an account
+            <CreateProfile/>
+          )}
         </div>
-    )
+      )
 }
 
 export default ProfileScreen

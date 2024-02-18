@@ -1,9 +1,9 @@
 import './App.css';
 import AboutScreen from './Screens/AboutScreen';
 import HomeScreen from './Screens/HomeScreen';
-import Header from './Header'
+import Header from './Components/Header.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from './NavBar';
+import NavBar from './Components/NavBar.js';
 import BoardScreen from './Screens/BoardScreen.js';
 import SocialScreen from './Screens/SocialScreen';
 import ProfileScreen from './Screens/ProfileScreen';
