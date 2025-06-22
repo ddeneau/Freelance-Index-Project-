@@ -22,6 +22,10 @@ function App() {
             <Route path="/profile" element={<ProfileScreen></ProfileScreen>}></Route>
           </Routes>
         </BrowserRouter>
+        {/* Footer goes here */}
+        <footer className="text-center text-gray-500 text-sm py-4">
+          &copy; {new Date().getFullYear()} Daniel Deneau.
+        </footer>
       </div>
   );
 }
