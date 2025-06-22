@@ -1,18 +1,12 @@
-import LoginButton from "./Home/Login"
-import image from "../Images/new_logo.png"
-
 const Header = () => {
     return (
-        <div className="grid grid-cols-1 justify-items-center">
-            <div>
-                <img src={image} class="object-contain h-50 mb-4" alt="logo"/>
-            </div>
-            <div className="flex flex-row">
-                <LoginButton className="w-1/2 mx-2"/>
-                <LoginButton className="w-1/2 mx-2">
-                    Join
-                </LoginButton>
-            </div>
+        <div className="grid grid-cols-1 justify-items-center mt-8 mb-6">
+            <h1 className="font-sans font-extrabold text-4xl mb-2">
+                Insert Slogan
+            </h1>
+            <p className="font-sans text-base text-gray-600 max-w-md text-center">
+                An easy-to-use job board.
+            </p>
         </div>
     )
 }
