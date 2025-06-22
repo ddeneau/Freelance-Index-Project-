@@ -1,10 +1,12 @@
-import image from "./Images/logo_smaller.png"
-
 const Header = () => {
     return (
-        <div className="grid grid-cols-1 justify-items-center">
-            <img src={image} class="scale-25 mt-0 mb-4" alt="logo"/>
-            <p className="font-sans font-bold text-2xl">insert slogan</p>
+        <div className="grid grid-cols-1 justify-items-center mt-8 mb-6">
+            <h1 className="font-sans font-extrabold text-4xl mb-2">
+                Insert Slogan
+            </h1>
+            <p className="font-sans text-base text-gray-600 max-w-md text-center">
+                An easy-to-use job board.
+            </p>
         </div>
     )
 }
