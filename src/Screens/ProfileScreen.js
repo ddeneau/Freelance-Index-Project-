@@ -1,5 +1,5 @@
 import LoggedInProfile from "./Profile/LoggedInProfile"
-import CreateProfile from "./Profile/CreateProfile"
+import ProfileChoice from "./Profile/ProfileChoice"
 
 var loggedIn = false
 
@@ -11,7 +11,7 @@ const ProfileScreen = () => {
             <LoggedInProfile/>
           ) : (
             // Display option to create an account
-            <CreateProfile/>
+            <ProfileChoice/>
           )}
         </div>
       )

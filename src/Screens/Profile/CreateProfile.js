@@ -1,4 +1,6 @@
-import LoginButton from "../../Components/Home/Login"
+import LoginButton from "../../Components/Home/LoginButton"
+
+
 
 const CreateProfile = () =>{
     return (
