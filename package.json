@@ -15,7 +15,6 @@
     "react-dom": "^18.2.0",
     "react-native-safe-area-context": "^4.7.2",
     "react-native-screens": "^3.26.0",
-    "react-refresh": "^0.17.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
