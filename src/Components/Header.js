@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="grid grid-cols-1 justify-items-center mt-8 mb-6">
+        <div className="grid grid-cols-1 justify-items-center m-2">
             <h1 className="font-sans font-extrabold text-4xl mb-2">
                 Insert Slogan
             </h1>

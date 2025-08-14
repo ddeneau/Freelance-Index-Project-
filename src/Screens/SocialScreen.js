@@ -13,7 +13,7 @@ const SocialScreen = () => {
         <div className="">
            {Search("Search for Profiles...")}
         </div>
-        <div className="mx-10 my-10 px-10 py-10">
+        <div className="mx-10 px-10 py-10">
             {ProfilePagePreview(profilePic, "First Last", "Java Engineer", "Three years of experience working on Java client software.")}
             {ProfilePagePreview(profilePic, "First Last", "Mobile Engineer", "Engineering team lead and back-end developer with 10+ YOE.")}
             {sampleProfiles}
