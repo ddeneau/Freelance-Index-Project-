@@ -25,7 +25,7 @@ const HomeScreen = () => {
                     </div>
                 </div>
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1" >
-                    {HomeInfo("Create and Post A Profile.", "Create your Talent Showcase, highlighting your skills, background, and interests. Allow users to discover you and reach out directly.")}
+                    {HomeInfo("Create and Post A Profile.", "Create a Profile, highlighting your background and interests.")}
                     {HomeInfo ("Browse Available Profiles.", "Browse to find individuals who can make a significant impact on your projects. Filter by skills, experience, and location to pinpoint the perfect profile.")}
                 </div>
             </div>
